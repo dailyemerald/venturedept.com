@@ -204,16 +204,21 @@ a:hover .caption {
   background-color: rgba(0,0,0,0.6);
   color: #FFFFFF;
   font-family: Exo;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 32px;
   line-height: 1.1em;
-  text-align: center;
-  padding-top: 40%;
+  text-align: left;
+  padding: 10%;
   -webkit-transition: all .25s linear;
   -o-transition: all .25s linear;
   -ms-transition: all .25s linear;
   -moz-transition: all .25s linear;
   transition: all .25s linear;
+}
+
+.caption-work .work-kind {
+  font-weight: 300;
+  font-size: 18px;
 }
 
 a:hover .caption-work {
@@ -246,13 +251,12 @@ a:hover .caption-work {
 }
 
 .facebook {
-  background: url('./assets/twitter-gem-white.png') no-repeat;
   width: 50%;
   height: auto;
   margin-top: 10%;
 }
 
-.facebook:hover {
+.facebook img:hover {
   background: url('./assets/twitter-gem.png') no-repeat;
 }
 
@@ -308,11 +312,8 @@ a:hover .caption-work {
     #welcometext { 
       font-size:90%;
     }
-    #secondsticker a { 
-      font-size: 70%;
-    }
     #secondsticker {
-      border: 1px solid #FFFFFF;
+      display:none;
     }
     .body-copy {
       font-size: 90%;
@@ -355,5 +356,9 @@ a:hover .caption-work {
 .caption-work {
   font-size: 12px;
   }
+.caption-work .work-kind {
+  font-weight: 300;
+  font-size: 10px;
+}
 
 }
