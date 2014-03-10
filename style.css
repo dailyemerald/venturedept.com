@@ -8,6 +8,7 @@ body {
 p {
   font-family: 'Exo';
   color: #FFF;
+  letter-spacing: .5em;
 }
 
 #container {
@@ -68,8 +69,17 @@ p {
 }
 
 .about-slide {
-  background-color: #464a4d;
+  background: url('./assets/about-castle-3.jpg');
+  background-size: cover;
+  background-position: 100%, 0%;
   padding: 5% 10% 5% 10%;
+}
+.asterisk {
+  color: #FFF;
+}
+
+.asterisk:hover {
+  color: #b2d236;
 }
 
 .about-slide-upper {
