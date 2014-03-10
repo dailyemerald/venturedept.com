@@ -8,7 +8,11 @@ body {
 p {
   font-family: 'Exo';
   color: #FFF;
-  letter-spacing: .05em;
+  letter-spacing: .1em;
+}
+
+.sidebar-hr {
+  margin-top: -15px;
 }
 
 #container {
@@ -21,6 +25,14 @@ p {
   color: #FFFFFF;
   font-weight: 800;
   font-size: 56px;
+  padding-bottom: 5%;
+}
+
+.section-title h3 {
+  font-family: Exo;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 40px;
   padding-bottom: 5%;
 }
 
@@ -48,6 +60,18 @@ p {
   background: url('./assets/clouds-2.jpg');
   background-size: cover;
   padding: 5% 10% 5% 10%;
+}
+
+.portfoliointro-slide {
+  background: url('./assets/clouds-2.jpg');
+  background-size: cover;
+  height: 35em;
+  padding: 5% 10% 5% 10%;
+}
+
+.portfolio-deets {
+  font-weight: 300;
+  font-size: 12px;
 }
 
 .services-title {
@@ -80,6 +104,7 @@ p {
 
 .asterisk:hover {
   color: #b2d236;
+  text-decoration: none;
 }
 
 .about-slide-upper {
@@ -322,9 +347,11 @@ a:hover .caption-work {
     #welcometext { 
       font-size:90%;
     }
+
     #secondsticker {
       display:none;
     }
+
     .body-copy {
       font-size: 90%;
       line-height: 1.2em;
