@@ -418,3 +418,7 @@ a:hover .caption-work {
 #secondsticker .nav li.active a {
   color: #b2d236;
 }
+
+.personal-link {
+  padding-bottom: 1px;
+}
