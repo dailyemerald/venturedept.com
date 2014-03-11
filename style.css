@@ -398,3 +398,23 @@ a:hover .caption-work {
 }
 
 }
+
+#secondsticker .nav {
+  margin-top: 2px;
+}
+
+#secondsticker .nav li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.nav > li > a:hover {
+  background-color: transparent !important;
+}
+
+.nav {
+  margin-bottom: 0 !important;
+}
+
+#secondsticker .nav li.active a {
+  color: #b2d236;
+}
