@@ -46,6 +46,7 @@
 .asuointro-slide {
   background: url('work/asuo-businesscards.jpg');
   background-size: cover;
+  background-position: 100%, 10%;
   height: 35em;
   padding: 5% 10% 5% 10%;
 }

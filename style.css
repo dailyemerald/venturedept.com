@@ -93,7 +93,7 @@ p {
 .about-slide {
   background: url('./assets/about-castle-3.jpg');
   background-size: cover;
-  background-position: 100%, 0%;
+  background-position: 100%, 100%;
   padding: 5% 10% 5% 10%;
 }
 .asterisk {
