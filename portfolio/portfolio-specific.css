@@ -2,6 +2,14 @@
 ##### EVERYTHING #####
 */
 
+p a {
+  color: #FFF;
+}
+
+p a:hover {
+  color: #FFF;
+}
+
 .section-title h3 {
   font-family: Exo;
   color: #FFFFFF;
@@ -84,6 +92,21 @@
   padding: 5% 10% 5% 10%;
 }
 
+/*
+##### DKHS PAGE #####
+*/
+
+.dkhsintro-slide {
+  background: url('work/dkhs-laptop.jpg');
+  background-size: cover;
+  height: 35em;
+  padding: 5% 10% 5% 10%;
+}
+
+.dkhsabout-slide {
+  background-color: #5b6453;
+  padding: 5% 10% 5% 10%;
+}
 
 /*
 ##### RESPONSIVE #####

@@ -252,6 +252,7 @@ a:hover .caption {
 .caption-work .work-kind {
   font-weight: 300;
   font-size: 18px;
+  line-height: 1.5em;
 }
 
 a:hover .caption-work {
